@@ -9,7 +9,7 @@ pipeline
         {
              // Create the steps in this stage
             steps{
-                    sh 'mvn clean compile install'
+                    bat 'mvn clean compile install'
                  }  // End of steps for stage one
         }
 
@@ -18,7 +18,7 @@ pipeline
         {
              // Create the steps in this stage
             steps{
-                    sh 'mvn surefire:test -Dtest=*.java'
+                    bat 'mvn surefire:test -Dtest=*.java'
                  }  // End of steps for stage two
         }
 
@@ -27,7 +27,7 @@ pipeline
         {
              // Create the steps in this stage
              steps{
-                    sh 'mvn deploy'
+                    bat 'mvn deploy'
                  }  // End of steps for stage three
         }
 
@@ -36,7 +36,7 @@ pipeline
         {
              // Create the steps in this stage
              steps{
-                    sh 'mvn package'
+                    bat 'mvn package'
                  }  // End of steps for stage four
         }
     }   // End of stages
