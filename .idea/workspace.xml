@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7134303-8cc9-4358-9a2c-eb9909176f74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a7134303-8cc9-4358-9a2c-eb9909176f74" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572389184019</updated>
-      <workItem from="1572389185223" duration="899000" />
+      <workItem from="1572389185223" duration="1203000" />
     </task>
     <task id="LOCAL-00001" summary="New refresh commit">
       <created>1572391505222</created>
@@ -70,7 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572391505222</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed sh to bat in Jenkins File">
+      <created>1572392111108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572392111108</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changed sh to bat in Jenkins File">
+      <created>1572392214225</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572392214225</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New refresh commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="New refresh commit" />
+    <MESSAGE value="Changed sh to bat in Jenkins File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed sh to bat in Jenkins File" />
   </component>
 </project>
