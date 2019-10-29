@@ -1,36 +1,43 @@
 pipeline
 {
     agent any
-
+// Create the stages to be used in our pipeline
     stages
     {
+        // Create the first stage to be used in our pipeline
         stage('Compile Stage')
         {
-        steps{
-                sh 'mvn clean compile install'
-             }
+             // Create the steps in this stage
+            steps{
+                    sh 'mvn clean compile install'
+                 }  // End of steps for stage one
         }
 
+        // Create the second stage to be used in our pipeline
         stage('Testing Stage')
         {
-        steps{
-                sh 'mvn surefire:test -Dtest=*.java'
-             }
+             // Create the steps in this stage
+            steps{
+                    sh 'mvn surefire:test -Dtest=*.java'
+                 }  // End of steps for stage two
         }
 
+        // Create the third stage to be used in our pipeline
         stage('Deployment Stage')
         {
-         steps{
-                sh 'mvn deploy'
-             }
+             // Create the steps in this stage
+             steps{
+                    sh 'mvn deploy'
+                 }  // End of steps for stage three
         }
 
+        // Create the fourth stage to be used in our pipeline
         stage('Package Stage')
         {
-         steps{
-                sh 'mvn package'
-             }
+             // Create the steps in this stage
+             steps{
+                    sh 'mvn package'
+                 }  // End of steps for stage four
         }
-
-    }
-}
+    }   // End of stages
+}   // End of pipeline
