@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7134303-8cc9-4358-9a2c-eb9909176f74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a7134303-8cc9-4358-9a2c-eb9909176f74" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572389184019</updated>
-      <workItem from="1572389185223" duration="2111000" />
+      <workItem from="1572389185223" duration="2368000" />
     </task>
     <task id="LOCAL-00001" summary="New refresh commit">
       <created>1572391505222</created>
@@ -99,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572392416437</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added a place for the jar file to be saved, GitHub">
+      <created>1572393247546</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572393247546</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New refresh commit" />
     <MESSAGE value="Changed sh to bat in Jenkins File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed sh to bat in Jenkins File" />
+    <MESSAGE value="Added a place for the jar file to be saved, GitHub" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a place for the jar file to be saved, GitHub" />
   </component>
 </project>

@@ -33,11 +33,11 @@
     <distributionManagement>
         <repository>
             <id>repo</id>
-            <url>https://github.com/gerardbyrne/snapshots</url>
+            <url>https://github.com/gerardbyrne/MavenExampleCICD</url>
         </repository>
         <snapshotRepository>
             <id>snapshot-repo</id>
-            <url>https://github.com/gerardbyrne/snapshots</url>
+            <url>https://github.com/gerardbyrne/MavenExampleCICD</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
