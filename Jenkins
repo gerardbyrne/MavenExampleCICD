@@ -32,13 +32,13 @@ pipeline
          }
 
         // Create the third stage to be used in our pipeline
-        stage('Deployment Stage')
-        {
+       // stage('Deployment Stage')
+      //  {
              // Create the steps in this stage
-             steps{
-                    bat 'mvn deploy'
-                 }  // End of steps for stage three
-        }
+     //        steps{
+     //               bat 'mvn deploy'
+     //            }  // End of steps for stage three
+     //   }
 
 
     }   // End of stages
